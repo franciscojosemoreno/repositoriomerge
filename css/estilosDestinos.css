@@ -60,20 +60,8 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.boton {
-  color: white;
-  background-color: #12293d;
-  transition: all 1s;
-}
-.boton:hover {
-  border: #12293d solid 10px;
-}
 #padForm {
   padding-top: 30px;
-}
-.imagenFondo {
-  background-image: linear-gradient(#12293d, white);
-  padding: 0px;
 }
 .links {
   color: blueviolet;
@@ -139,20 +127,6 @@ a:hover {
   grid-area: formulario;
   padding: 0px;
 }
-.tituloAnimado {
-  animation-name: tituloAnimado;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-}
-@keyframes tituloAnimado {
-  from {
-    transform: translate(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0);
-    opacity: 1;
-  }
 /*-------------------TABLET-----------------------*/
 @media (min-width: 481px) and (max-width: 1023px) {
   h1 {

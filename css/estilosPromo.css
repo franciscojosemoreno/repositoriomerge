@@ -46,14 +46,6 @@ ul li {
   padding: 20px;
   text-align: center;
 }
-.botonOne {
-  color: white;
-  background-color: #12293d;
-  transition: all 1s;
-}
-.botonOne:hover {
-  border: #12293d solid 10px;
-}
 .paddingGenDos {
   padding: 10px;
 }
@@ -65,9 +57,6 @@ section {
 }
 h2 {
   color: #12293d;
-}
-.imagenFondo {
-  background-image: linear-gradient(#12293d, white);
 }
 a:hover {
   color: #12293d;
@@ -173,20 +162,6 @@ a:hover {
 .centerText {
   text-align: center;
 }
-.tituloAnimado { padding-left: 20px;
-  animation-name: tituloAnimado;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-}
-@keyframes tituloAnimado {
-  from {
-    transform: translate(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0);
-    opacity: 1;
-  }
 /*----------------TABLET-----------------*/
 @media (min-width: 481px) and (max-width: 1023px) {
   .gridsUno {

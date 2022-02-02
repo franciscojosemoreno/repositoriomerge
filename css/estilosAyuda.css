@@ -51,20 +51,6 @@ section {
 .paddingGen {
   padding: 30px;
 }
-.boton {
-  color: white;
-  background-color: #12293d;
-  transition: all 1s;
-}
-.boton:hover {
-  border: #12293d solid 10px;
-}
-.imagenFondo {
-  background-image: linear-gradient(#12293d, white);
-  min-width: 100%;
-  display: grid;
-  justify-content: center;
-}
 a:hover {
   color: #12293d;
   background-color: white;
@@ -73,17 +59,3 @@ a:hover {
   display: grid;
   justify-content: center;
 }
-.tituloAnimado { color: #12293d;
-  animation-name: tituloAnimado;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-}
-@keyframes tituloAnimado {
-  from {
-    transform: translate(-200px);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0);
-    opacity: 1;
-  }
